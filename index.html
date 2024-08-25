@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- First Page -->
+    <div id="page1">
+        <p>I love you so so so so much</p>
+        <button onclick="showPage('page2')">Continue</button>
+    </div>
+
+    <!-- Second Page -->
+    <div id="page2" class="hidden">
+        <p>Date 2024 Aug 19</p>
+        <p>Dear Supreya,</p>
+        <p>
+            I mean I love you, malai thaxaina ke k vaneyako xu tara plzzzz kya tapai mero gf banuna plzzzz. I really love you so so so much plzzz accept garnu na malai tapai kasto man parxa first ma kura gardha testo vako thiyane tara paxe gaye paxe malai tapai man parna thalyo literally malai thaxaina ma k vaneyako xu vanera I really love you and I will love you forever plzzz accept garnu na malai tapai man parxa malai thaxa ke tapai yesto ma parnu huna tahe pane accept garnu na la plzzz feri block chai nagarnu hai.
+        </p>
+        <p>Will you be my girlfriend?</p>
+        <button onclick="showPage('page3')">Next</button>
+    </div>
+
+    <!-- Third Page -->
+    <div id="page3" class="hidden">
+        <p>Will you be my girlfriend plzzzz?</p>
+        <button onclick="handleResponse('yes')">Yes</button>
+        <button onclick="handleResponse('no')">No</button>
+    </div>
+
+    <!-- Fourth Page -->
+    <div id="page4" class="hidden">
+        <p>Thank you for clicking. Trust me, ma tapai lai sachi maya garxu.</p>
+        <button onclick="showPage('page5')">Click the K</button>
+    </div>
+
+    <!-- Fifth Page -->
+    <div id="page5" class="hidden">
+        <p>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</p>
+    </div>
+
+    <!-- Retry Page -->
+    <div id="retry" class="hidden">
+        <p>Please yes click garnuna plzzzzz 🥺🥺🥺</p>
+        <button onclick="showPage('page3')">Try Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
